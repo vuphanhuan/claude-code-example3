@@ -97,8 +97,6 @@ export function MailDisplay({ mail }: MailDisplayProps) {
                   classNames={{
                     today: "bg-none",
                     day: "cursor-pointer",
-                    day_selected: "cursor-pointer",
-                    day_today: "cursor-pointer"
                   }}
                   required
                 />
