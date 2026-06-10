@@ -1,7 +1,14 @@
 {
   "permissions": {
     "allow": [
-      "Bash(npx tsc *)"
+      "Bash(npx tsc *)",
+      "Bash(npm run *)",
+      "Bash(taskkill /F /PID 20728)",
+      "Bash(rm -f .next/dev/lock)",
+      "Bash(taskkill /F /IM node.exe)",
+      "Bash(awk '{print $5}')",
+      "Bash(xargs -I{} taskkill /F /PID {})",
+      "Bash(taskkill //F //PID 20728)"
     ]
   }
 }
